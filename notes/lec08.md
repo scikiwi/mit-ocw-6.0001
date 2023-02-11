@@ -1,6 +1,3 @@
-
-
-
 # Object Oriented Programming
 Python allows many kinds of data, eg lists, `int`s, `float`s, strings, and dictionaries.
 Each is an **object**. Every object has:
