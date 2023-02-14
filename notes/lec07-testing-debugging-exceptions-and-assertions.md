@@ -1,7 +1,7 @@
 
 
 
-# Testing, Debugging, Exceptions, Assertions
+# Testing, Debugging, Exceptions, and Assertions
 From the start, design code to ease debugging:
 * Break program up into modules that can be tested and debugged individually
 * Write out input and output constraints on modules
