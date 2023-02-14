@@ -1,5 +1,3 @@
-
-
 # Tuples, Lists, Aliasing, Mutability, and Cloning
 How to create an empty tuple:
 ```
