@@ -211,7 +211,7 @@ if __name__ == '__main__':
     enc_message = EncryptedSubMessage(message.apply_transpose(enc_dict))
     print("Decrypted message:", enc_message.decrypt_message())
     
-    # test case 1
+    # test case 2
     message = SubMessage("Arise! Awake! And stop not, until the goal is reached.")
     permutation = "uoaie"
     enc_dict = message.build_transpose_dict(permutation)
