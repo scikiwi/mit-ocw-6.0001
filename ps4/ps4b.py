@@ -226,7 +226,7 @@ class CiphertextMessage(Message):
         
         best_wordcount = 0
         best_shift = 0
-        ans = ""
+        ans = self.get_message_text()
         
         for shift in range(25):
             decrypted = self.apply_shift(shift)
@@ -253,7 +253,7 @@ class CiphertextMessage(Message):
             if num_words > best_wordcount:
                 best_wordcount = num_words
                 best_shift = shift
-                ans = decrypted_copy
+                ans = decrypted
         
         return best_shift, ans
         
