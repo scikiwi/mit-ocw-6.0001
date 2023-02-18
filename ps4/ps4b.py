@@ -241,7 +241,7 @@ class CiphertextMessage(Message):
                 if c not in string.ascii_letters + " ":
                     # make changes to copy of decrypted to avoid problems
                     # while iterating over decrypted
-                    decypted_copy = decrypted.replace(c, "")
+                    decrypted_copy = decrypted_copy.replace(c, "")
             
             decrypted_list = decrypted_copy.split()
             num_words = 0
