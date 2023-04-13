@@ -78,6 +78,7 @@ We'll **focus on the worst case**:
 	* want to know run time as a **function of input size**
 	* want to know **"order of" not "exact"** growth; don't need precision
 	* want to **ignore machine and implementational details**
+	* want a **tight upper bound** on runtime, ie, will **focus on worst case**
 ***
 **Big O notation**:
  * Write n(ops) as a function of input size
