@@ -91,7 +91,7 @@ print(c.distance(origin))
 
 is equivalent to:
 ```
-print(Coordinate(distance(c, origin) 
+print(Coordinate(distance(c, origin))) 
 ```
 * `Coordinate`: name of class
 * `distance()`: name of method 
